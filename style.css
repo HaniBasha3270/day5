@@ -3,6 +3,8 @@
      height: 500px; 
      background-color: black;
      color: aliceblue;
+     position: absolute;
+     margin: 0px;
 
 
 }
@@ -21,6 +23,7 @@
     height: 60px;
     align-items: center;
     border-radius: 20px;
+    margin-top: 20px;
     
     
     
@@ -38,13 +41,13 @@ a{
 }
 .button{
     
-
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     gap: 24px;
-   color: black;
+   color: rgb(247, 244, 244);
    margin-bottom: 10px;
+   
    
    
     
@@ -52,6 +55,11 @@ a{
     align-items: center;
     margin-bottom: 10px;
     
+}
+
+button:hover{
+    background-color:wheat;
+    color:black;
 }
 img{
     height: 320px;
@@ -68,6 +76,15 @@ img{
     height: 50px;
     border-radius: 10px;
     
+}
+.p{
+    background-color: black;
+    color: aliceblue;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: aliceblue;
 }
 
 
