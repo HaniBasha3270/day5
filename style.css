@@ -32,23 +32,30 @@ a{
     
 }
 .text{
-    margin-left: 50px;
+    position: relative;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
-.button {
+.button{
     
 
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     gap: 24px;
-    /* background-color: aqua; */
+   color: black;
+   margin-bottom: 10px;
+   
    
     
    
     align-items: center;
+    margin-bottom: 10px;
     
 }
 img{
+    height: 320px;
+    width: 320px;
     border-radius: 50%;
     margin-right: 60px;}
 
@@ -56,6 +63,11 @@ img{
 .but{
     background-color: green;
     color: aliceblue;
+    box-shadow: 5px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    
 }
 
 
